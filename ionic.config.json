@@ -1,0 +1,7 @@
+{
+  "name": "lcorner",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
