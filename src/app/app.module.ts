@@ -12,6 +12,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFireModule } from '@angular/fire';
+
 
 // credenciales de Firebase
 export const firebaseConfig = {
@@ -36,7 +38,8 @@ export const firebaseConfig = {
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    AngularFireModule.initializeApp(firebaseConfig),
     
   ],
   bootstrap: [IonicApp],
