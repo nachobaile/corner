@@ -1,3 +1,32 @@
-page-about {
 
-}
+    page-about {
+        ion-card {
+            position: relative;
+            text-align: center;
+          }
+        
+          .card-title {
+            position: absolute;
+            top: 15%;
+            font-size: 2.0em;
+            width: 100%;
+            font-weight: bold;
+            color: #fff;
+            -webkit-text-stroke: 1px rgb(114, 110, 110);
+          }
+        
+          .card-subtitle {
+            font-size: 1.0em;
+            position: absolute;
+            top: 65%;
+            width: 100%;
+            color: #fff;
+            -webkit-text-stroke: 0.2px rgb(114, 110, 110);
+    
+          }
+          .cabecera {
+            width: 50%;
+            height: 50%;
+        }
+    }
+

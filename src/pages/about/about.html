@@ -1,11 +1,30 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      <div >
+        <img class="cabecera" src="../../assets/imgs/logo.jpg"/>
+        </div>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content class="card-background-page">
+
+  <ion-card>
+    <button (click)='presentModal()'>
+    <img src="../../assets/imgs/areaclientes.jpg" >
+    <div class="card-title">Area Clientes</div>
+    <div class="card-subtitle">Entrar</div>
+    </button>
+  </ion-card>
+
+  <ion-card>
+    <button (click)='contact()'>
+    <img src="../../assets/imgs/contactoconiconos.jpg"/>
+    <div class="card-title">contactanos</div>
+    <div class="card-subtitle"></div>
+  </button>
+  </ion-card>
+
 
 </ion-content>
