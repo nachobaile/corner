@@ -1,3 +1,4 @@
+import { AboutPage } from './../about/about';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -21,5 +22,7 @@ export class AreaClientesPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad AreaClientesPage');
   }
-
+  skip(){
+    this.navCtrl.push(AboutPage);
+  }
 }

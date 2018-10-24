@@ -14,5 +14,41 @@
 
 
 <ion-content padding>
-
+  
+    <ion-list>
+        <ion-item>
+          <ion-label floating>NOMBRE DE LA EMPRESA</ion-label>
+          <ion-input type="text" ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating>TIPO DE GESTIÓN</ion-label>
+          <ion-input type="text" ></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating>NOMBRE TRABAJADOR</ion-label>
+            <ion-input type="text" ></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label floating>APELLIDOS TRABAJADOR</ion-label>
+            <ion-input type="text" ></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label floating>DNI</ion-label>
+              <ion-input type="text" ></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label floating>Nº DE AFILIACIÓN</ion-label>
+              <ion-input type="number" ></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label floating>NACIONALIDAD</ion-label>
+                <ion-input type="text" ></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-label floating>FECHA DE NACIMIENTO</ion-label>
+                <ion-input type="date" ></ion-input>
+              </ion-item>
+        <button ion-button color="fondo">Enviar</button>
+        <button ion-button color="primary" (click)='skip()'>Salir</button>
+      </ion-list>
 </ion-content>
